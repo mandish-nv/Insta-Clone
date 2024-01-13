@@ -1,0 +1,85 @@
+/* shrink garda icon banne  */
+/* ajai shrink garda mathi tala jane */
+
+/* more ko active */
+
+.menu{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 1105px;
+
+  border-right: solid;
+  border-width: 1px;
+  border-color: rgb(204, 198, 198);
+  height: 100%;
+  padding-left: 17px;
+}
+
+.navigation{
+  display: grid;
+  grid-template-columns: 215px;
+}
+
+.navigation p{
+  font-size: 15px;
+}
+
+.MainLogo{
+  width: 110px;
+  padding-top: 27px;
+  padding-bottom: 13px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.message_count{
+  background-color: rgb(255, 57, 57);
+  color: white;
+  font-size: 12px;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 12px;
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  top: 7px;
+  right: 175px;
+}
+
+.icontext{
+  position: relative;
+}
+
+.icontext:hover,
+.icontext_more:hover{
+  background-color: rgb(238, 237, 237);
+  transition: background-color 0.2s;
+}
+
+.icontext .current_icontext{
+  font-weight: bolder;
+}
+
+.icontext,
+.icontext_more{
+  display: grid;
+  grid-template-columns: 42px 1fr;
+  align-items: center;
+  padding-left: 8px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.icontext_more{
+  margin-top: 8px;
+}
+
+.icontext .post_photo_circle{
+  height: 27px;
+  width: 27px;
+  border: none;
+}

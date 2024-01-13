@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+/* This should be scaled */
+body{
+  padding: 25px;
+  padding-left: 270px;
+  padding-top: 15px;
+}
+
+.main{
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 5px;
+}
+
+i{
+  cursor: pointer;
+}

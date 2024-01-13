@@ -1,0 +1,111 @@
+/* certain size shrink bhaye pachi remove */
+
+.accounts{
+  display: grid;
+  grid-template-rows: 90px 360px 70px;
+  padding-left: 95px;
+  padding-right: 25px;
+}
+
+.user_account{
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  gap: 5px;
+  align-items: center;
+}
+
+.account_photo_circle{
+  height: 41px;
+  width: 41px;
+  border-radius: 20px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.real_user_name{
+  font-size: 14px;
+  color: grey;
+  padding-top: 2px;
+}
+
+.switch_button,
+.follow_button{
+  border: none;
+  background-color: white;
+  color: rgb(41, 178, 241);
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.switch_button:hover,
+.follow_button:hover{
+  color: rgb(34, 67, 158);
+}
+
+.suggestion_header{
+  display: grid;
+  grid-template-columns: 1fr 50px;
+}
+
+.suggested_for_you{
+  font-size: 14px;
+  font-weight: bold;
+  color: gray;
+}
+
+.see_all_button{
+  border: none;
+  background-color: white;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.see_all_button:hover{
+  opacity: 0.5;
+}
+
+.suggested_account_profile_section{
+  padding: 2px;
+  display: grid;
+  gap: 15px;
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+
+.suggested_account_profile{
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  gap: 8px;
+  align-items: center;
+}
+
+.mutual_friends{
+  font-size: 13px;
+  color: gray;
+  padding-top: 3px;
+}
+
+.insta_info{
+  display: grid;
+  grid-template-rows: 1fr 13px;
+}
+
+.info_help,
+.info_help_bullet{
+  color: rgb(201, 201, 201);
+  font-size: 12px;
+  display: inline;
+}
+
+.info_help:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.info_insta{
+  color: rgb(201, 201, 201);
+  font-size: 12px;
+  font-weight: bold;
+}
